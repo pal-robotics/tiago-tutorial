@@ -1,19 +1,19 @@
 .. _navigation:
 
 ******************************
-PMB-2 Navigation tutorial ROS2
+Tiago Navigation tutorial ROS2
 ******************************
 
 
 Purpose
 #######
 
-This tutorial shows how to make PMB-2 navigate autonomously provided a map build up of laser scans and taking into account the laser and the RGBD camera in order to avoid obstacles.
+This tutorial shows how to make tiago navigate autonomously provided a map build up of laser scans and taking into account the laser and the RGBD camera in order to avoid obstacles.
 
 Pre-Requisites
 ##############
 
-First make sure that the tutorials are properly installed along with the PMB-2 simulation, as shown in the tutorials `installation`_ section. Then follow the instructions in the `PMB2_mapping`_ tutorial in order to create and save a map.
+First make sure that the tutorials are properly installed along with the tiago simulation, as shown in the tutorials `installation`_ section. Then follow the instructions in the `tiago_mapping`_ tutorial in order to create and save a map.
 
 Execution
 #########
@@ -28,7 +28,7 @@ In the first console launch the following simulation
 
 .. code:: bash
 
-   ros2 launch pmb2_2dnav_gazebo pmb2_navigation_gazebo.launch.py
+   ros2 launch tiago_2dnav_gazebo tiago_navigation_gazebo.launch.py
 
 This will launch a gazebo window and a rviz window with a map.
 Select on the rviz window the ``2D Pose Estimate`` mode and set the approximate robot position on the map.
@@ -60,5 +60,5 @@ After selecting the goal you can see the global path planned and the local path.
 .. image:: media/navigation.png
     :alt: navigation rviz
 
-.. _installation: http://wiki.ros.org/Robots/PMB-2/Tutorials#Tutorials_Installation
-.. _PMB2_mapping: https://cesc-folch.github.io/pmb2-tutorial/mapping
+.. _installation: https://cesc-folch.github.io/tiago-tutorial/installation
+.. _tiago_mapping: https://cesc-folch.github.io/tiago-tutorial/mapping

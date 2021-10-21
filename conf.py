@@ -21,7 +21,7 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'PMB2 ROS2 tutorials'
+project = 'Tiago ROS2 tutorials'
 copyright = '2021, PAL Robotics'
 author = 'PAL Robotics'
 
@@ -107,7 +107,7 @@ html_static_path = ['_static']
 html_context = {
     "display_github": True,
     "github_user": "cesc-folch",
-    "github_repo": "pmb2-tutorial",
+    "github_repo": "tiago-tutorial",
     "github_version": "main",
     "conf_py_path": "/",
     "source_suffix": source_suffix,
@@ -120,12 +120,12 @@ html_logo = "images/palroboticslogo.png"
 logo_only = True
 html_favicon = "images/favicon_ros-controls.ico"
 
-github_url = "https://github.com/cesc-folch/pmb2-tutorial"
+github_url = "https://github.com/cesc-folch/tiago-tutorial"
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'pmb2ros2tutorial'
+htmlhelp_basename = 'tiagoros2tutorial'
 
 
 # -- Extension configuration -------------------------------------------------

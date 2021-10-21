@@ -8,12 +8,12 @@ PMB-2 Mapping tutorial ROS2
 Purpose
 #######
 
-This tutorial shows how to make PMB-2 navigate and create a map using the navigation from ros2. You can find further information about that in the `nav2_SLAM`_ tutorial.
+This tutorial shows how to make tiago navigate and create a map using the navigation from ros2. You can find further information about that in the `nav2_SLAM`_ tutorial.
 
 Pre-Requisites
 ##############
 
-First make sure that the tutorials are properly installed along with the PMB-2 simulation, as shown in the tutorials `installation`_ section.
+First make sure that the tutorials are properly installed along with the tiago simulation, as shown in the tutorials `installation`_ section.
 
 Execution
 #########
@@ -28,7 +28,7 @@ In the first console launch the following simulation
 
 .. code:: bash
 
-   ros2 launch pmb2_2dnav_gazebo pmb2_mapping_gazebo.launch.py
+   ros2 launch tiago_2dnav_gazebo tiago_mapping_gazebo.launch.py
 
 .. image:: media/gazebo.png
     :alt: gazebo mapping
