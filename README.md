@@ -1,3 +1,3 @@
 GitHub Pages of [cesc-folch/tiago-tutorial](https://github.com/cesc-folch/tiago-tutorial.git)
 ===
-Sphinx html documentation of [4905e9ef](https://github.com/cesc-folch/tiago-tutorial/tree/4905e9ef495d14fd612afecfa06150a9987edd36)
+Sphinx html documentation of [aa9dc69e](https://github.com/cesc-folch/tiago-tutorial/tree/aa9dc69e57a18c505d5d76c9c3f27446696d4288)

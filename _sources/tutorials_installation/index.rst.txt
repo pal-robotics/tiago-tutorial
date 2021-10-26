@@ -7,6 +7,7 @@ TIAGo ROS2 installation tutorials
    :hidden:
 
    installation/index.rst
+   simulation/index.rst
 
 Welcome to the tutorials that will guide you through installation of the simulation of TIAGo robot.
 
