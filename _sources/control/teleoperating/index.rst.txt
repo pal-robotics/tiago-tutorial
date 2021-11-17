@@ -28,7 +28,7 @@ In the first console launch the TIAGo gazebo simulation simulation
 
 .. code:: bash
 
-   ros2 launch tiago_gazebo tiago_gazebo.launch.py
+   ros2 launch tiago_gazebo tiago_gazebo.launch.py --ros-args --remap world_name:=simple_office_with_people
 
 This will launch a gazebo empty world with a TIAGo.
 
@@ -46,6 +46,6 @@ In the second console launch the keyboard teleoperation node
 
 Now you can navigate the robot to correct the position error.
 
-.. _installation: https://cesc-folch.github.io/tiago-tutorial/installation
-.. _tiago_mapping: https://cesc-folch.github.io/tiago-tutorial/mapping
+.. _installation: https://cesc-folch.github.io/tiago-tutorial/tutorials_installation/installation/index.html
+.. _tiago_mapping: https://cesc-folch.github.io/tiago-tutorial/autonomous_navigation/mapping/index.html
 .. _teleop_twist_keyboard: https://index.ros.org/p/teleop_twist_keyboard/github-ros2-teleop_twist_keyboard

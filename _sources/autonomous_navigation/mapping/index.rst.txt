@@ -1,7 +1,7 @@
 .. _mapping:
 
 ***************************
-PMB-2 Mapping tutorial ROS2
+TIAGo Mapping tutorial ROS2
 ***************************
 
 
@@ -56,4 +56,4 @@ As shown in the `nav2_SLAM`_ tutorial you can save the map by doing:
 
 
 .. _nav2_SLAM: https://navigation.ros.org/tutorials/docs/navigation2_with_slam.html
-.. _installation: http://wiki.ros.org/Robots/PMB-2/Tutorials#Tutorials_Installation
+.. _installation: https://pal-robotics.github.io/pmb2_tutorials_doc/installation/index.html

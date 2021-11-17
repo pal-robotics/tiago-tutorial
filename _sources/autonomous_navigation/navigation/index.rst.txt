@@ -60,5 +60,5 @@ After selecting the goal you can see the global path planned and the local path.
 .. image:: media/navigation.png
     :alt: navigation rviz
 
-.. _installation: https://cesc-folch.github.io/tiago-tutorial/installation
-.. _tiago_mapping: https://cesc-folch.github.io/tiago-tutorial/mapping
+.. _installation: https://cesc-folch.github.io/tiago-tutorial/tutorials_installation/installation/index.html
+.. _tiago_mapping: https://cesc-folch.github.io/tiago-tutorial/autonomous_navigation/mapping/index.html
