@@ -14,7 +14,7 @@ Welcome to the tutorials that will guide you through installation and simulation
 
 You can find the official mapping and the navigation `tutorials`_.
 
-.. _tutorials: https://https://navigation.ros.org
+.. _tutorials: https://navigation.ros.org
 
 
 ----
