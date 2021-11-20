@@ -49,4 +49,4 @@ If you want to choose the type of end effector of the robot you can use the laun
 .. image:: media/pal-hey5.png
     :alt: gazebo TIAGo with hey5
 
-.. _installation: http://cesc.folch.github.io/tiago-tutorial/tutorials_installation/installation
+.. _installation: http://cesc-folch.github.io/tiago-tutorial/tutorials_installation/installation
