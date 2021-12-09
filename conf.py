@@ -120,7 +120,7 @@ html_logo = "images/palroboticslogo.png"
 logo_only = True
 html_favicon = "images/favicon_ros-controls.ico"
 
-github_url = "https://github.com/cesc-folch/tiago-tutorial"
+github_url = "https://github.com/pal-robotics/tiago-tutorial"
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
