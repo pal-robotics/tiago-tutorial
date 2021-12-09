@@ -1,3 +1,3 @@
-GitHub Pages of [cesc-folch/tiago-tutorial](https://github.com/cesc-folch/tiago-tutorial.git)
+GitHub Pages of [pal-robotics/tiago-tutorial](https://github.com/pal-robotics/tiago-tutorial.git)
 ===
-Sphinx html documentation of [eb855d9d](https://github.com/cesc-folch/tiago-tutorial/tree/eb855d9dae90cbf613ac904fd4519d111a6391d0)
+Sphinx html documentation of [b6271e39](https://github.com/pal-robotics/tiago-tutorial/tree/b6271e39fef074472faa3ffef634d3e41ad0bab4)

@@ -10,7 +10,7 @@ Welcome to the Tiago ROS2 tutorials!
    control/index.rst
    autonomous_navigation/index.rst
 
-Welcome to the tutorials that will guide you through installation and simulation of navigation and mapping with a tiago robot.
+Welcome to the tutorials that will guide you through installation and simulation of navigation and mapping with a TIAGo robot.
 
 You can find the official mapping and the navigation `tutorials`_.
 
