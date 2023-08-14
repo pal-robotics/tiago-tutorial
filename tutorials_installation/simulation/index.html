@@ -33,10 +33,9 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
-        <script src="../../_static/underscore.js"></script>
         <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/doctools.js"></script>
         <script src="../../_static/sphinx_highlight.js"></script>
     
@@ -191,20 +190,20 @@
 <section id="execution">
 <h2>Execution<a class="headerlink" href="#execution" title="Permalink to this heading"></a></h2>
 <p>First of all open one consoles and source ros setup</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">source</span> /opt/ros/foxy/setup.bash
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">source</span><span class="w"> </span>/opt/ros/foxy/setup.bash
 </pre></div>
 </div>
 <p>Now you can launch the TIAGo simulation</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ros2 launch tiago_gazebo tiago_gazebo.launch.py
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ros2<span class="w"> </span>launch<span class="w"> </span>tiago_gazebo<span class="w"> </span>tiago_gazebo.launch.py
 </pre></div>
 </div>
 <img alt="gazebo simulation" src="../../_images/pal-hey5.png" />
 <p>If you want to choose the type of end effector of the robot you can use the launch argument:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ros2 launch tiago_gazebo tiago_gazebo.launch.py end_effector:<span class="o">=</span>pal-gripper
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ros2<span class="w"> </span>launch<span class="w"> </span>tiago_gazebo<span class="w"> </span>tiago_gazebo.launch.py<span class="w"> </span>end_effector:<span class="o">=</span>pal-gripper
 </pre></div>
 </div>
 <img alt="gazebo TIAGo with gripper" src="../../_images/pal-gripper.png" />
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ros2 launch tiago_gazebo tiago_gazebo.launch.py end_effector:<span class="o">=</span>pal-hey5
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ros2<span class="w"> </span>launch<span class="w"> </span>tiago_gazebo<span class="w"> </span>tiago_gazebo.launch.py<span class="w"> </span>end_effector:<span class="o">=</span>pal-hey5
 </pre></div>
 </div>
 <img alt="gazebo TIAGo with hey5" src="../../_images/pal-hey5.png" />
